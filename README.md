@@ -12,8 +12,8 @@ The solution implements a state-machine architecture to handle takeoff, spiral s
 * **HAL & GUI:** Specific APIs for the drone simulation environment.
 
 ## Simulation Scenario
-![Scenario View](Captura desde scenario.png)
-*Figure 1: Third-person view of the drone searching for victims in the water.*
+![Scenario View](scenario.png)
+<br>*Figure 1: Third-person view of the drone searching for victims in the water.*
 
 ## How it Works (Algorithm)
 
@@ -42,12 +42,12 @@ When a victim is detected, the system draws a visual indicator on the screen to 
 
 | Detection Example 1 | Detection Example 2 |
 | :---: | :---: |
-| ![Detection 1](Captura desde detection1.png) | ![Detection 2](Captura desde detection2.png) |
+| ![Detection 1](detection1.png) | ![Detection 2](detection2.png) |
 
 ### Mission Report
 The final output logs the GPS coordinates of all survivors found before returning to base.
 
-![Console Log](Captura desde console.png)
+![Console Log](console.png)
 
 ## Limitations & Known Issues
 
@@ -57,7 +57,7 @@ The final output logs the GPS coordinates of all survivors found before returnin
 
 
 
-
+---
 
 
 
